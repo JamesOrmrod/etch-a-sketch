@@ -1,0 +1,38 @@
+.wrapper, html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#button-container {
+    padding: 64px;
+}
+
+#grid-container {
+    border: 1px solid black;
+    /* flex: 1 1 auto; */
+
+    width: 960px;
+    height: 960px;
+
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.grid-box {
+    /* flex: 1 1 25%; */
+
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid blue; */
+}
+
+.hovered {
+    background-color: blue;
+}
